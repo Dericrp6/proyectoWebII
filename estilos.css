@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    scroll-behavior: smooth; /*para controlar el scroll*/
+}
+
+    
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    height: 100vh; /* ocupar el 100% de la pantalla */
+    background-image: linear-gradient(to top, rgba(159, 138, 208, 0.445) 0%, rgba(251, 194, 235, 0.514) 100%), url(imagenes/backiee-89586.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position:center;
+}
+
+.head{
+    padding:0;
+    height: 100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column; /*si no hay espacion pasa para abajo*/    
+    color:rgba(26, 22, 22, 0.904);
+}
+
+.titulo {
+    font-size:  60px;
+    margin-bottom: 15px;
+}
+
+.copy{
+    font-weight: 300;
+    font-size:  25px;
+}
+
+.contenedor-btn {
+    padding:0;
+    height: 100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size:20px;
+    color: #ffffff;
+    background-color: #1833ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+
+}
+
+
+
+
+
